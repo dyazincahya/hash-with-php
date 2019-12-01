@@ -68,7 +68,7 @@
                     </div>
                     <div>
                         <p><b>PANJANG ENKRIPSI</b></p>
-                        <p><code><?=strlen($enc);?> bit</code></p>
+                        <p><code><?=strlen($enc);?> karakter</code></p>
                     </div>
                     <form method="POST">
                         <div style="margin-bottom:15px;">
@@ -95,7 +95,7 @@
                         <blockquote class="blockquote">HASH ditujukan untuk menjaga <b>integritas</b> suatu data. HASH tidak dapat di decript sehingga pengguna juga harus melakukan hashing untuk mengetahui apakah <i>data awal</i> berbeda dengan <i>data saat</i> ini. Jadi cara kerjanya lebih pada mencocokan antara <i>hasil awal hashing</i> dengan <i>hasil akhir hashing</i>.</blockquote>
                     </div>
                     <div class="alert alert-dark" role="alert">
-                        <blockquote class="blockquote">Untuk membuktikannya kamu bisa melakukan hasing dengan mengisi inputan disamping. Pada bagian ini Data Awalnya Adalah <code><?=$_GET['message'];?></code> dengan output <code><?=$enc;?></code> dan panjang <code><?=strlen($enc);?> bit</code> dan HASH yang digunakan adalah <code><?=$_GET['hash'];?></code>.</blockquote>
+                        <blockquote class="blockquote">Untuk membuktikannya kamu bisa melakukan hasing dengan mengisi inputan disamping. Pada bagian ini Data Awalnya Adalah <code><?=$_GET['message'];?></code> dengan output <code><?=$enc;?></code> dan panjang <code><?=strlen($enc);?> karakter</code> dan HASH yang digunakan adalah <code><?=$_GET['hash'];?></code>.</blockquote>
                     </div>
                 </div>
             </div>            
@@ -115,7 +115,7 @@
                                     <div class="card-header">Data Awal</div>
                                     <div class="card-body">
                                         <p class="card-text">
-                                            Pesan teksnya adalah <code><?=$_POST['message'];?></code>, di encript menggunakan <code><?=$_GET['hash'];?></code>. Hasil enkripsinya adalah <code><?=$enc;?></code> dan memiliki panjang <code><?=strlen($enc);?> bit</code>
+                                            Pesan teksnya adalah <code><?=$_POST['message'];?></code>, di encript menggunakan <code><?=$_GET['hash'];?></code>. Hasil enkripsinya adalah <code><?=$enc;?></code> dan memiliki panjang <code><?=strlen($enc);?> karakter</code>
                                         </p>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
                                     <div class="card-header">Data Saat Ini</div>
                                     <div class="card-body">
                                         <p class="card-text">
-                                            Pesan teksnya adalah <code><?=$_GET['message'];?></code>, di encript menggunakan <code><?=$_GET['hash'];?></code>. Hasil enkripsinya adalah <code><?=$enc_2;?></code> dan memiliki panjang <code><?=strlen($enc_2);?> bit</code>
+                                            Pesan teksnya adalah <code><?=$_GET['message'];?></code>, di encript menggunakan <code><?=$_GET['hash'];?></code>. Hasil enkripsinya adalah <code><?=$enc_2;?></code> dan memiliki panjang <code><?=strlen($enc_2);?> karakter</code>
                                         </p>
                                     </div>
                                 </div>
