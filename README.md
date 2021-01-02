@@ -4,6 +4,9 @@
 # HASH with PHP
 Simple apps for hashing text with PHP, avaliable hash (MD5, SHA1, SHA224, SHA256, and SHA512). This apps use ```Indonesian Language```
 
+### Demo
+[See demo here](https://demo.kang-cahya.web.id/hash/)
+
 ### Screenshot
 ![](https://github.com/dyazincahya/hash-with-php/blob/master/hash-ss.png)
 
