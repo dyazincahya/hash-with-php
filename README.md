@@ -13,6 +13,3 @@ Simple apps for hashing text with PHP, avaliable hash (MD5, SHA1, SHA224, SHA256
 ### License
 [MIT License](https://github.com/dyazincahya/hash-with-php/blob/master/LICENSE)
 
-
-[![Run on Repl.it](https://repl.it/badge/github/dyazincahya/hash-with-php)](https://repl.it/github/dyazincahya/hash-with-php)
-
